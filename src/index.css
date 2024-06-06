@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+      .menu_clip{
+            clip-path: polygon(0 0, 100% 0, 100% 54%, 13% 82%, 0 41%);
+      }
+}
