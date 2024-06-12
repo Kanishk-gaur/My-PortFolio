@@ -25,6 +25,7 @@ const Projects = () => {
                   className="w-full h-full object-cover"
                   src={elm.videoUrl} // Ensure videoUrl exists in achivelist data
                   controls
+                  autoPlay
                   loop
                   muted
                 ></video>

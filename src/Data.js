@@ -7,6 +7,16 @@ import portfolio from "./assets/portfolio.png";
 import prada from "./assets/prada.jpg";
 import td from "./assets/td.jpg";
 import bankapp from "./assets/bankapp.png";
+import elevate from './assets/eccomerse.mp4';
+import lee381 from './assets/Leetcode-biweekly381.png'
+import lee from './assets/Leetcode.png'
+import gfgc from './assets/gfg_contest.png'
+import gfg from './assets/gfg.png'
+import codec from './assets/codechef_contest.png'
+import code from './assets/codechef.png'
+import newsm from './assets/NewsWebsite.mp4'
+
+
 
 export const projectlist = [
   {
@@ -16,8 +26,7 @@ export const projectlist = [
     codeUrl: "https://github.com/Kanishk-gaur/ElevateCart---a-ecommerce-website",
     demoUrl: "https://ecommerse3.onrender.com/",
     img: 'src/assets/Leetcode-biweekly381.png',
-    videoUrl: 'src/assets/eccomerse.mp4',
-
+    videoUrl: elevate,
   },
   {
     id: 1,
@@ -26,7 +35,7 @@ export const projectlist = [
     codeUrl: "https://github.com/Kanishk-gaur/NewsWebsite",
     //demoUrl: "https://trailer-dekho-r.vercel.app/",
     img: td,
-    videoUrl: 'src/assets/NewsWebsite.mp4',
+    videoUrl: newsm,
 
   },
   {
@@ -39,6 +48,8 @@ export const projectlist = [
   },
 ];
 
+
+
 export const achivelist = [
   {
     id: 0,
@@ -46,7 +57,7 @@ export const achivelist = [
     des: "I secured a rank of 581 in a competitive LeetCode Biweekly Contest, showcasing my problem-solving skills and proficiency in algorithms and data structures. Competing against thousands, I demonstrated my ability to tackle challenging coding problems under time constraints.",
     codeUrl: "https://leetcode.com/u/Kanishk__gaur/",
     demoUrl: "https://nike-app-six.vercel.app/",
-    img: 'src/assets/Leetcode-biweekly381.png',
+    img: lee381,
     site: "LeetCode",
     videoUrl: 'src/assets/vedio1.mp4',
   },
@@ -56,7 +67,7 @@ export const achivelist = [
     des: "I have solved 1045+ questions and ranked in the top 5.88% < globally on LeetCode, maintaining a 246 + -day streak.",
     codeUrl: "https://leetcode.com/u/Kanishk__gaur/",
     demoUrl: "https://trailer-dekho-r.vercel.app/",
-    img: 'src/assets/Leetcode.png',
+    img: lee,
     site: "LeetCode",
   },
   {
@@ -65,7 +76,7 @@ export const achivelist = [
     des: "I achieved 44th rank in Weekly Contest 140 and 115th rank in Weekly Contest 139 globally on GeeksforGeeks.",
     codeUrl: "https://www.geeksforgeeks.org/user/kanishkg0/",
     demoUrl: "https://fb-clone-tawny.vercel.app/",
-    img: 'src/assets/gfg_contest.png',
+    img: gfgc,
     site: "LeetCode",
   },
   {
@@ -74,18 +85,18 @@ export const achivelist = [
     des: "I have secured rank 1 in my university on GeeksforGeeks since 2022, solving over 767 questions. ",
     codeUrl: "https://www.geeksforgeeks.org/user/kanishkg0/",
     demoUrl: "https://aesthetic-design.vercel.app/",
-    img: 'src/assets/gfg.png',
+    img: gfg,
     site: "LeetCode",
 
   },
-  
+
   {
     id: 5,
     title: "CodeChef--Contest",
     des: " I secured global rank 16 in CodeChef Starter 118 and rank 66 in Starter 123.",
     codeUrl: "https://www.codechef.com/users/kanishk_7",
     demoUrl: "https://exercisehub1.netlify.app/",
-    img: 'src/assets/codechef_contest.png',
+    img: codec,
   },
   {
     id: 6,
@@ -93,7 +104,7 @@ export const achivelist = [
     des: "I am a 3-star coder on CodeChef with a highest rating of 1712.",
     codeUrl: "https://www.codechef.com/users/kanishk_7",
     demoUrl: "https://pawansingh2.vercel.app/",
-    img: 'src/assets/codechef.png',
+    img: code,
   },
   // {
   //   id: 7,
