@@ -1,12 +1,4 @@
-import nikeapp from "./assets/nikeapp.png";
-import exercise from "./assets/exercise.png";
-import fbclone from "./assets/fbclone.png";
-import linkedin from "./assets/linkedin.png";
-import netflix from "./assets/netflix.jpg";
-import portfolio from "./assets/portfolio.png";
-import prada from "./assets/prada.jpg";
 import td from "./assets/td.jpg";
-import bankapp from "./assets/bankapp.png";
 import elevate from './assets/eccomerse.mp4';
 import lee381 from './assets/Leetcode-biweekly381.png'
 import lee from './assets/Leetcode.png'
@@ -15,6 +7,8 @@ import gfg from './assets/gfg.png'
 import codec from './assets/codechef_contest.png'
 import code from './assets/codechef.png'
 import newsm from './assets/NewsWebsite.mp4'
+import note from './assets/note.mp4'
+import port from './assets/portfolio.mp4'
 
 
 
@@ -24,7 +18,7 @@ export const projectlist = [
     title: "ElevateCart--a E-commerse website",
     des: "I developed ElevateCart, an e-commerce platform featuring a comprehensive order management system, an admin section, payment integration, and advanced search filters.",
     codeUrl: "https://github.com/Kanishk-gaur/ElevateCart---a-ecommerce-website",
-    demoUrl: "https://ecommerse3.onrender.com/",
+    demoUrl: "https://elevatecart.onrender.com/",
     img: 'src/assets/Leetcode-biweekly381.png',
     videoUrl: elevate,
   },
@@ -38,13 +32,32 @@ export const projectlist = [
     videoUrl: newsm,
 
   },
+  // {
+  //   id: 2,
+  //   title: "Note Saver",
+  //   des: "I developed a note-making website that allows users to create and organize notes, with features for sharing different notes with different people.",
+  //   codeUrl: "https://github.com/Pawansingh121/fb-clone",
+  //   // demoUrl: "https://fb-clone-tawny.vercel.app/",
+  //   img: fbclone,
+  //   vedioUrl: newsm,
+  // },
   {
-    id: 2,
-    title: "Note Saver",
+    id:2,
+    title: "Note--Saver",
+    des: "I developed web applications and tools, showcasing my programming and design skills. Contact me via email or social media for collaborations. I have received awards and certifications recognizing my expertise.",
+    codeUrl: "https://github.com/Kanishk-gaur/i-Notebook",
+    //demoUrl: "https://trailer-dekho-r.vercel.app/",
+    img: td,
+    videoUrl: note,
+  },
+  {
+    id:3,
+    title: "Professinal--PortFolio",
     des: "I developed a note-making website that allows users to create and organize notes, with features for sharing different notes with different people.",
-    codeUrl: "https://github.com/Pawansingh121/fb-clone",
-    demoUrl: "https://fb-clone-tawny.vercel.app/",
-    img: fbclone,
+    codeUrl: "https://github.com/Kanishk-gaur/My-PortFolio",
+    //demoUrl: "https://trailer-dekho-r.vercel.app/",
+    img: td,
+    videoUrl: port,
   },
 ];
 
